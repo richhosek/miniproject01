@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header stuff */
+header {
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+h1 {
+    margin: 0;
+    padding: 4px;
+}
+
+nav {
+    font-size: 1.5em;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    background-color: peru;
+    padding: 4px;
+    margin-top: 4px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -2px 2px 2px black;
+}
+
+nav a:hover {
+    box-shadow: -4px 4px 2px black;
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+}
+
+/* Content Stuff */
+
+figure {
+    width: 50%;
+    margin: 1em auto;
+    margin-top: calc(1em + 51px);
+    font-size: 2em;
+
+}
+
+img {
+    width: 100%
+}
+
+section {
+    background-color: orange;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input, label {
+    font-size: 1.5em;
+    width: 100%;
+}
+
+/* Footer stuff */
+footer {
+text-align: center;
+background-color: black;
+color: orange;
+padding: 1em;
+}
